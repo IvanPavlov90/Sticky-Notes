@@ -1,0 +1,16 @@
+.note-list__note {
+    border: 1px solid #d8c0c0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    height: fit-content;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+
+    .note-list__note__header, .note-list__note__text {
+        margin-left: 10px;
+        margin-right: 10px;
+        word-break: break-all;
+    }
+}

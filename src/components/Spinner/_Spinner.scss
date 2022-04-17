@@ -1,0 +1,22 @@
+.spinner {
+    background: url("../../style/assets/icons8-спиннер,-кадр-5-90.png");
+    position: relative;
+    width: 90px;
+    height: 90px;
+    animation: rotate 2s infinite;
+    margin: auto;
+}
+
+.spinner__text {
+    font-size: 20px;
+    text-align: center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,33 @@
+.search {
+    width: 100%;
+    border-top: 1px solid #d8c0c0;
+    border-bottom: 1px solid #d8c0c0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+
+    &::before {
+        content: url("../../style/assets/magnifier-1_icon-icons.com_56924.png");
+        position: relative;
+        left: 40px;
+        top: 20px;
+    }
+
+    & .search__input {
+        width: 70%;
+        height: 50px;
+        margin: 10px 0px 10px 0px;
+        padding: 0 50px;
+        cursor: pointer;
+    }
+
+    & .search__btn {
+        width: 80px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        margin: 10px 0px 10px 10px;
+        cursor: pointer;
+    }
+}
